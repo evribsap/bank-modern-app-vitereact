@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from './style'
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <h1 style={{ color: '#fff' }}>Hello</h1>
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      
+    </div>
   </div>
 );
 
